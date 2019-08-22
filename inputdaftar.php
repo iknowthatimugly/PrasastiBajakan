@@ -12,7 +12,7 @@
     Email : <input type="text" name="email"><br>
     Jenis kelamin : 
     <input type="radio" name="jk" value="Laki laki" >Laki Laki
-    <input type="radio" name="jk" value="perempuan" >Perempuan
+    <input type="radio" name="jk" value="Perempuan" >Perempuan
     <br>
     Agama : <select name="agama">
     <option value="islam">Islam</option>
