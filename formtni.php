@@ -24,7 +24,7 @@
         $tinggi = $_POST['tb'];
         $berat = $_POST['bb'];
         function seleksi($tinggi,$berat,$name){
-            if ($tinggi >= 165 && $berat >= 60) {
+            if ($tinggi >= 165 && ($berat < 60 && $berat > 50)) {
                 echo "Selamat!\n";
                 echo "Anda Lulus seleksi Master Chaldea<br>";
                 echo "Atas nama : ".$name."<br>";
